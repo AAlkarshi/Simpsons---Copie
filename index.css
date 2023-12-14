@@ -1,0 +1,316 @@
+*{
+	padding: 0;
+	margin: 0;
+	vertical-align: top;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+
+html,body{
+	height: 100%;
+}
+
+#wrapper{
+	padding: 0 15%;
+	height: 100%;
+}
+
+header img{
+	width: 100%;
+}
+
+body{
+	height: 100%;
+	background-color: #FDD116;
+}
+
+main{
+	text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#DIVHEADER{
+	margin-left: auto; 
+	margin-right: auto;
+}
+
+
+
+
+
+
+#ENGLOBEHEADER{
+	width: 100%;
+    display: inline-block; 
+    justify-content: center; 
+    align-items: center; 
+	position: relative;
+}
+
+
+
+
+
+#ENGLOBE{
+	display: flex; 
+	justify-content: center; 
+	margin-left: auto; 
+	margin-right: auto; 
+	background-color: white; 
+	
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.ONGLET{
+    color: white;
+    text-decoration: none;
+	font-size: 17px;
+	padding-left: 8px;
+	padding-right: 8px;
+}
+
+
+
+
+
+
+#BLOCNAV{
+	margin-left: 15px;
+	margin-right: 5px;
+	margin-top: 15px;
+}
+
+
+nav{
+	background-color: #4C8DCD; 
+	flex: 1; 
+	padding: 10px 10px 10px 10px;
+	
+}
+
+
+#TitreEntete{
+	background-color: #4C8DCD;
+	margin-bottom: 0; 
+    text-align: center; 
+    color: white;
+	font-size: 25px;
+	padding-bottom: 5px;
+	padding-top: 5px;
+}
+
+#BlocIMG{
+	margin-bottom: 0;
+}
+
+
+#PhotoRéalisateurSimpsons{
+	height:150px;
+	margin-top: 10px;
+	border: white 2px solid;
+}
+
+
+
+#TitreRéalisateur{
+	color: white;
+	padding-bottom: 10px;
+	font-weight: bold;
+	padding-top: 5px;
+}
+
+
+
+
+
+#Onglets{
+	list-style-type: none;
+}
+
+#Onglets li h5 a{
+	text-decoration: underline;
+	color: white;
+}
+
+
+
+/* NAV séparation  */
+#Onglets > li > h5{
+	padding-bottom: 5px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* BLOC Simpsons Paragraphe Texte  */
+#ParagrapheSimpsons
+{
+	padding-left: 5px; 
+	padding-right: 5px;
+	padding-bottom: 10px;
+	height: auto;
+	width: 175px;
+	flex: 2;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+
+
+/* Titre Simpsons */
+#TitreSimpsons{
+	color: #FDD116;
+	display: flex;
+	justify-content: flex-start;
+	padding-top: 20px;
+	padding-bottom: 10px;
+}
+
+ 
+#TexteSimpsons{
+	height: auto;
+	text-align: justify;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+
+
+
+
+
+
+
+
+
+
+#TexteRéalisateurSimpsons{
+	color: white;
+	padding-bottom: 10px;
+	padding-left: 5px;
+	padding-right: 5px;
+	text-align: justify;
+	word-spacing: normal;
+	font-weight: bold;
+	font-size: 13px;
+}
+
+
+#figureBlocRéalisateur{
+	background-color: #4C8DCD;
+	margin-bottom: 10px;
+}
+
+
+#BlocRéalisateur{
+	text-align: center;
+	width: 175px;
+	margin-top: 15px;
+	flex: 3;
+}
+
+
+#SectionRéalisateur{
+	background-color: white;
+	padding-right: 5px;
+}
+
+
+
+
+
+/* FOOTER */
+footer{
+	background-color: #4c8dce; 
+	color: white; 
+	margin-left: auto; 
+	margin-right: auto;
+	margin-bottom: 0; 
+	font-size: 20px;
+	font-family: solid;
+	width: 100%;
+	text-align: center;
+	padding-top: 8px;
+	padding-bottom: 8px;
+}
+
+
+
+
+/* FORMAT MOBILE MEDIAS QUERIES  */
+
+/* Entre 600px à 850px  */
+@media screen and (max-width: 900px) {
+	#ENGLOBE{
+		display: inline-block;
+		width: 100%;
+	}
+
+	#BLOCNAV{
+		display: inline-block;
+		margin-left: 5px;	
+	}
+
+	/* Enlever les bordure jaunes */
+	#wrapper{
+		padding: 0;
+	}
+
+	#ParagrapheSimpsons{
+		display: inline-block;
+		width: 100%;
+		padding: 0px;
+	}
+
+	#TitreSimpsons{
+		display: inline-block;
+	}
+
+	#TexteSimpsons{
+		display: inline-block;
+		padding: 5px 10px 5px 10px;
+	}
+
+	#SectionRéalisateur{
+		display: inline-block;
+	}
+
+  }
+
+
+  
